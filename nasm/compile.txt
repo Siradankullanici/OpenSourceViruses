@@ -1,1 +1,4 @@
 nasm -f win32 autoclicker.asm -o autoclicker.obj
+link /subsystem:console /entry:start autoclicker.obj user32.lib kernel32.lib
+nasm -f win32 AntivirusDefender12.asm -o AntivirusDefender12.obj
+link /subsystem:console /entry:start AntivirusDefender12.obj kernel32.lib
