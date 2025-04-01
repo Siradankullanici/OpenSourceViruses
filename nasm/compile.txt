@@ -1,0 +1,1 @@
+nasm -f win32 autoclicker.asm -o autoclicker.obj
